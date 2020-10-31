@@ -1,0 +1,8 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="tuna" fetch=".."
+           review="https://mirrors.tuna.tsinghua.edu.cn/git/" />
+  <default revision="master" remote="tuna" sync-j="4" />
+  <!-- build projects -->
+</manifest>
