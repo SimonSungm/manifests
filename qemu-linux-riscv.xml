@@ -5,7 +5,7 @@
   <default revision="master" remote="github" sync-j="4" />
 
   <!-- build projects -->
-  <project path="kernel/linux" remote="github" name="torvalds/linux" clone-depth="1" revision="ad8c735b1497520df959f675718f39dca8cb8019" />
+  <project path="kernel/linux" remote="github" name="gregkh/linux" clone-depth="1" revision="ad8c735b1497520df959f675718f39dca8cb8019" />
   <project path="simulator/qemu" remote="github" name="qemu/qemu" clone-depth="1" revision="d0ed6a69d399ae193959225cdeaa9382746c91cc" sync-s="true" />
 
   <project path="firmware/opensbi" remote="github" name="riscv/opensbi" clone-depth="1" revision="a98258d0b537a295f517bbc8d813007336731fa9" />
